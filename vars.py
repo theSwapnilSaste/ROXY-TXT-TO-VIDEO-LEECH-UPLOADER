@@ -11,11 +11,12 @@ FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "roxybasicneedbot1")  # Cha
 FORCE_SUB_CHANNEL_LINK = environ.get("FORCE_SUB_CHANNEL_LINK", "https://t.me/roxybasicneedbot1")  # Channel link
 
 # Admin Configuration
-ADMINS = list(map(int, environ.get("ADMINS", "7988057380").split()))
+ADMINS = list(map(int, environ.get("ADMINS", "write yours").split()))
 
 # Optional: Bot Owner ID
-OWNER_ID = int(environ.get("OWNER_ID", "7988057380"))
+OWNER_ID = int(environ.get("OWNER_ID", "write yours"))
 
 # Database URL (if you want to add database support later)
-DATABASE_URL = environ.get("DATABASE_URL", "")
+DATABASE_URL = environ.get("DATABASE_URL", "write yours")
+
 
