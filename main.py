@@ -38,7 +38,7 @@ WELCOME_IMAGE_PATH = "welcome.jpg"
 # Force Subscribe Check Function
 async def is_subscribed(bot, user_id):
     # if not FORCE_SUB_CHANNEL:
-        return True
+    return True
     
     try:
         member = await bot.get_chat_member(chat_id=FORCE_SUB_CHANNEL, user_id=user_id)
